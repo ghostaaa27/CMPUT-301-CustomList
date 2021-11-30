@@ -22,6 +22,25 @@ public class CityList {
         cities.add(city);
     }
 
+
+    /**
+     * This delete a city from the list
+     * @param _city
+     */
+    public void deleteCity(City _city){
+        cities.remove(_city);
+    }
+
+
+    /**
+     * This count cities
+     */
+    public int countCities() {
+        return cities.size();
+    }
+
+
+
     /**
      * This returns a sorted list of cities
      * @return
